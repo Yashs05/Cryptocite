@@ -1,0 +1,12 @@
+.currency_supply_container {
+    width: 40%;
+}
+
+.supply_information {
+    border-radius: 10px;
+}
+
+.supply_percentage_circle {
+    transform: rotate(270deg);
+    transform-origin: 50% 50%;
+}

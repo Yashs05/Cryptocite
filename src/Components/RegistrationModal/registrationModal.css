@@ -1,0 +1,77 @@
+.navbar-login-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.registration-modal {
+    min-width: 50%;
+    max-height: 100vh;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    border-radius: 10px;
+}
+
+.modal-logo {
+    width: 35px;
+    height: 40px;
+}
+
+.modal-logo-text {
+    font-size: 1.675rem;
+}
+
+.modal-close-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.login-signup-tabs {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.login-signup-active {
+    border-bottom: 3px solid #dc3545;
+}
+
+.login-sigup-button {
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-sigup-button:disabled {
+    cursor: not-allowed;
+    background-color: #dc35458c;
+}
+
+.login-signup-info {
+    white-space: nowrap;
+}
+
+.body-overlay {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    opacity: 0.3;
+    background-color: black;
+}
+
+.unclickable {
+    color: #dc35458c;
+}
+

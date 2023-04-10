@@ -1,0 +1,72 @@
+.bg-currency-span1-light {
+    background-color: rgb(243, 243, 243);
+}
+
+.bg-currency-span1-dark {
+    background-color: #2b3945;
+}
+
+.bg-currency-span2-light {
+    background-color: #ececec;
+}
+
+.bg-currency-span2-dark {
+    background-color: #2c3946;
+}
+
+.currency_icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.rank, .listed_on {
+    font-size: 0.8rem;
+}
+
+.top_right_container {
+    max-width: 50%;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.timechanger-desktop {
+    display: block;
+}
+
+.timechanger-mobile {
+    display: none;
+    margin-top: 1.5rem;
+}
+
+.value_stats_container, .links_container {
+    width: 40%;
+}
+
+.value_stats_label_icons, .links_label_icons {
+    width: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #dc3545;
+}
+
+.all_time_high_span {
+    font-size: 0.84rem;
+}
+
+.links {
+    color: unset;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: unset;
+}
+
+.description_container h5 {
+    font-weight: bold;
+}
+
+.description_container p {
+    margin-bottom: 1.5rem;
+}

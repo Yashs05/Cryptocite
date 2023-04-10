@@ -1,0 +1,29 @@
+.page_items {
+    padding: 4px 12px;
+    list-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.page-items-light:not(.no_hover):not(.active):hover {
+    background-color: rgba(239, 244, 248, 0.8);
+}
+
+.page-items-dark:not(.no_hover):not(.active):hover {
+    background-color: rgba(54, 70, 85, 0.8);
+}
+
+.active {
+    color: white;
+    background-color: #dc3545;
+}
+
+.arrows {
+    line-height: inherit;
+}
+
+.no_hover:hover {
+    background-color: initial;
+    cursor: initial;
+}

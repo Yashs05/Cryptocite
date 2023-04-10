@@ -1,0 +1,52 @@
+.logo_loader {
+    width: 50px;
+    height: 55px;
+}
+
+.hide_logo_loader {
+    display: none;
+}
+
+.show_logo_loader {
+    display: initial;
+}
+
+.loader_container {
+    width: 65px;
+    height: 5px;
+    position: relative;
+}
+
+.loader-container-light {
+    background-color: antiquewhite;
+}
+
+.loader-container-dark {
+    background-color: #2b3945;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 5px;
+    background-color: #dc3545;
+    border-radius: 10px;
+    animation: loader 2s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    50% {
+        top: 0;
+        left: 55px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}

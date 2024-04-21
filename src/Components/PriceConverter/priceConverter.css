@@ -1,0 +1,52 @@
+.price_converter_container {
+    width: 40%;
+}
+
+.currency_value_inputs {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.swap_icon {
+    cursor: pointer;
+    transform: rotate(90deg);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.bg-swap-light {
+    background-color: #ececec;
+}
+
+.bg-swap-dark {
+    background-color: #2b3945;
+}
+
+/* .date_container {
+
+} */
+
+.date_button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.date_button:disabled {
+    cursor: not-allowed;
+    background-color: #dc35458c;
+}
+
+.date_input {
+    font-size: 0.95rem;
+    border-radius: 5px;
+}
+
+.date-container-light input {
+    color-scheme: unset;
+}
+
+.date-container-dark input {
+    color-scheme: dark;
+}

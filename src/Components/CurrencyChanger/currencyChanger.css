@@ -1,0 +1,38 @@
+.currency_changer_btn {
+    border-radius: 7px;
+}
+
+.currency_converter_btn {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 15px;
+}
+
+.currency_changer_dropdown {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 325%;
+    border-radius: 5px;
+    overflow-y: hidden;
+    border: none;
+    z-index: 99;
+}
+
+.currency_options_container {
+    overflow-y: auto;
+    max-height: 20rem;
+}
+
+.currency_options {
+    font-size: 0.9rem;
+    white-space: initial;
+}
+
+.currency_options:hover {
+    cursor: pointer;
+}

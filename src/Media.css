@@ -1,0 +1,392 @@
+/* Media queries */
+
+/* Registration modal */
+@media screen and (max-width: 1150px) {
+    .registration-modal {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .registration-modal {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .registration-modal {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .registration-modal {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .padding-x-less {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .padding-y-less {
+        padding-top: 1.5rem !important;
+    }
+
+    .margin-x-0 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .login-signup-tabs {
+        font-size: 0.8rem;
+    }
+}
+
+/* Global stats */
+@media only screen and (max-width: 1150px) {
+
+    .global-stats-container {
+        overflow-x: auto !important;
+    }
+
+    .global-stats {
+        width: fit-content !important;
+    }
+
+    .numbers_stats_container,
+    .market_stats_container {
+        width: 40vw !important;
+    }
+
+    .coins_stats_container {
+        width: 50vw !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .numbers_stats_container,
+    .market_stats_container {
+        width: 50vw !important;
+    }
+
+    .coins_stats_container {
+        width: 60vw !important;
+    }
+
+    .global-stats-placeholder-3 {
+        display: none !important;
+    }
+
+    .global-stats-placeholders {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .numbers_stats_container,
+    .market_stats_container {
+        width: 60vw !important;
+    }
+
+    .coins_stats_container {
+        width: 75vw !important;
+    }
+
+    .global-stats-placeholder-2 {
+        display: none !important;
+    }
+
+    .global-stats-placeholders {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+
+    .numbers_stats_container,
+    .market_stats_container {
+        width: 70vw !important;
+        font-size: 0.9rem !important;
+    }
+
+    .coins_stats_container {
+        width: 85vw !important;
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Time changer */
+@media screen and (max-width: 812px) {
+    .times_container_div {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .times_container {
+        width: 100% !important;
+        justify-content: space-between !important;
+    }
+}
+
+/* Currency list */
+@media screen and (max-width: 900px) {
+    .currency_list td:nth-child(n+4) {
+        padding: 0 1rem !important;
+    }
+
+    .currency_list th:nth-child(n+4) {
+        padding: 0 1rem !important;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .currency_list td:nth-child(n+4) {
+        padding: 0 0.8rem !important;
+    }
+
+    .currency_list th:nth-child(n+4) {
+        padding: 0 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .currency_list td a {
+        padding: 1rem 0.25rem !important;
+    }
+
+    .currency_list th {
+        height: 3rem !important;
+        padding: 0.5rem 0.25rem !important;
+    }
+
+    .currency_list td:not(:nth-child(3)) {
+        padding: 0 0.25rem !important;
+    }
+
+    .currency_list th:not(:nth-child(3)) {
+        padding: 0 0.25rem !important;
+    }
+
+    .currency_list td:nth-child(n+4) {
+        padding: 0 0.5rem !important;
+    }
+
+    .currency_list th:nth-child(n+4) {
+        padding: 0 0.5rem !important;
+    }
+
+    .currency_list {
+        font-size: 0.9rem !important;
+    }
+
+    .currency-info-div {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .currency-symbol {
+        margin-left: 0 !important;
+    }
+
+    .td-1 {
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 95;
+    }
+
+    .th-1 {
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 95;
+    }
+
+    .bg-currency-list-name-light {
+        background-color: #fcfcfc !important;
+    }
+
+    .bg-currency-list-name-dark {
+        background-color: #202c37 !important;
+    }
+}
+
+/* Index */
+@media screen and (max-width: 550px) {
+    .hover-primary-light:hover {
+        background-color: unset;
+    }
+
+    .hover-primary-dark:hover {
+        background-color: unset;
+    }
+}
+
+/* Pagination */
+@media screen and (max-width: 500px) {
+    .page_items {
+        padding: 2px 10px !important;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .page_items {
+        padding: 0px 8px !important;
+    }
+}
+
+/* Currency */
+
+@media screen and (max-width: 1200px) {
+
+    .value_stats_container {
+        width: 50% !important;
+        margin-right: 1.5rem;
+    }
+
+    .links_container {
+        width: 50% !important;
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .top_right_container {
+        max-width: unset !important;
+    }
+
+    .currency-top-info {
+        flex-direction: column;
+    }
+
+    .top_right_container {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .price-converter-supply-container {
+        flex-direction: column;
+    }
+
+    .value-stats-links-container {
+        flex-direction: column;
+    }
+
+    .value_stats_container {
+        width: 100% !important;
+        margin-bottom: 3rem;
+    }
+
+    .links_container {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .value_stats_container {
+        margin-right: 0 !important;
+    }
+}
+
+/* Currency chart */
+
+@media screen and (max-width: 650px) {
+    .currency-chart {
+        height: 300px !important;
+        width: 200% !important;
+    }
+
+    .currency-chart-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+
+/* Price converter */
+
+@media screen and (max-width: 1200px) {
+    .price_converter_container {
+        width: 50% !important;
+        margin-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .price_converter_container {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 3rem;
+    }
+
+    .price-converter {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .price-converter {
+        width: 100% !important;
+    }
+}
+
+/* Currency supply */
+
+@media screen and (max-width: 1200px) {
+    .currency_supply_container {
+        width: 50% !important;
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .currency_supply_container {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}
+
+/* Time changer */
+@media screen and (max-width: 812px) {
+    .timechanger-desktop {
+        display: none !important;
+    }
+
+    .timechanger-mobile {
+        display: block !important;
+    }
+}
+
+/* Profile drawer */
+
+@media screen and (max-width: 1000px) {
+    .profile-drawer {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-drawer {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile-drawer {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

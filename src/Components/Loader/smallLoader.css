@@ -1,0 +1,10 @@
+.search_results_loader {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.search_results_loader div {
+    color: #dc3545;
+}

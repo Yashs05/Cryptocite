@@ -1,0 +1,31 @@
+.logo {
+    height: 45px;
+}
+
+.logo_text {
+    font-size: 1.8rem;
+}
+
+.searchbar-desktop {
+    display: block;
+}
+
+.searchbar-mobile {
+    display: none;
+}
+
+/* Media queries */
+@media screen and (max-width: 850px) {
+    .searchbar-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .searchbar-mobile {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+}

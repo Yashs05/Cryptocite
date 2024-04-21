@@ -1,0 +1,63 @@
+.avatar {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.drawer-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;  
+}
+
+.logout-btn {
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    background-color: #dc354623;
+    color: #dc3545;
+}
+
+.name-edit {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.changes-btn {
+    font-size: 0.9rem;
+    color: white;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.cancel-btn {
+    font-size: 0.9rem;
+    border: none;
+    background-color: transparent;
+}
+
+.wishlist-container {
+    overflow-y: hidden;
+}
+
+.wishlist-items-container {
+    overflow-y: auto;
+    max-height: 90%;
+}
+
+.wishlist-coins {
+    list-style-type: none;
+}
+
+.wishlist-coin-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-drawer-close-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

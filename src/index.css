@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+input:focus-visible {
+  outline-offset: none;
+}
+
+ul {
+  padding-left: unset;
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* Light theme */
+.color-primary-light {
+  color: #202c37;
+}
+
+.color-secondary-light {
+  color: #6c757d;
+}
+
+.bg-primary-light {
+  background-color: #fcfcfc;
+}
+
+.bg-secondary-light {
+  background-color: white;
+}
+
+.navbar-border-light {
+  border-bottom: 1px solid #efefef;
+}
+
+.border-primary-light {
+  border: 1px solid #d3d3d3;
+}
+
+.border-secondary-light {
+  border: 1px solid #d8d8d8;
+}
+
+.input-light {
+  color: #202c37;
+  caret-color: #202c37;
+}
+
+.input-light::placeholder {
+  color: #6c757d;
+}
+
+.hover-primary-light:hover {
+  background-color: rgba(239, 244, 248, 0.4);
+}
+
+.hover-secondary-light:hover {
+  background-color: rgba(239, 244, 248, 0.8);
+}
+
+.box-shadow-primary-light {
+  box-shadow: 0px 0px 5px 2px #efefef;
+}
+
+.box-shadow-secondary-light {
+  box-shadow: 0px 0px 5px 0px #efefef;
+}
+
+.bg-currency-list-name-light {
+  background-color: unset;
+}
+
+/* Dark theme */
+.color-primary-dark {
+  color: #e0e0e0;
+}
+
+.color-secondary-dark {
+  color: #99a5af;
+}
+
+.bg-primary-dark {
+  background-color: #202c37;
+}
+
+.bg-secondary-dark {
+  background-color: #2b3945;
+}
+
+.navbar-border-dark {
+  border-bottom: 1px solid #1a232c;
+}
+
+.border-primary-dark {
+  border: 1px solid #344455;
+}
+
+.border-secondary-dark {
+  border: 1px solid #1d2731;
+}
+
+.input-dark {
+  color: #e0e0e0;
+  caret-color: #e0e0e0;
+}
+
+.input-dark::placeholder {
+  color: #99a5af;
+}
+
+.hover-primary-dark:hover {
+  background-color: rgba(35, 50, 63, 0.5);
+}
+
+.hover-secondary-dark:hover {
+  background-color: rgba(35, 50, 63, 0.8);
+}
+
+.box-shadow-primary-dark {
+  box-shadow: 0px 0px 5px 2px #1a232c;
+}
+
+.box-shadow-secondary-dark {
+  box-shadow: 0px 0px 5px 0px #1a232c;
+}
+
+.bg-currency-list-name-dark {
+  background-color: unset;
+}
+
+/* Context */
+.price-up {
+  color: rgba(25, 183, 25, 0.9);
+}
+
+.price-down {
+  color: rgba(223, 25, 25, 0.9);
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fs-small {
+  font-size: 0.9rem;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}

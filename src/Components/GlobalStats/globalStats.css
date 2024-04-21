@@ -1,0 +1,34 @@
+.stats_containers {
+    border-radius: 10px;
+}
+
+.stats_containers div {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.stats_containers div::-webkit-scrollbar {
+    display: none;
+}
+
+.numbers_stats_container {
+    width: 30%;
+}
+
+.market_stats_container {
+    width: 30%;
+}
+
+.coins_stats_container {
+    width: 40%;
+}
+
+.stats_containers a {
+    text-decoration: none;
+    color: unset;
+}
+
+.global-stats-placeholders {
+    width: 33.3%;
+    display: block;
+}
